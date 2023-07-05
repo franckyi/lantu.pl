@@ -10,6 +10,8 @@ import { PeppercornComponent } from './components/peppercorn/peppercorn.componen
 import { CinnamonComponent } from './components/cinnamon/cinnamon.component';
 import { CloveComponent } from './components/clove/clove.component';
 import { ProductComponent } from './components/shared/product/product.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ProductComponent } from './components/shared/product/product.component'
     PeppercornComponent,
     CinnamonComponent,
     CloveComponent,
-    ProductComponent
+    ProductComponent,
+    ToolbarComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,

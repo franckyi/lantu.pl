@@ -12,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$primary: mat.define-palette(mat.$lime-palette);
-$accent: mat.define-palette(mat.$yellow-palette, A200, A100, A400);
+$primary: mat.define-palette(mat.$brown-palette);
+$accent: mat.define-palette(mat.$lime-palette, A300, A200, A600);
 
 // The warn palette is optional (defaults to red).
 $warn: mat.define-palette(mat.$red-palette);
@@ -40,10 +40,10 @@ $lantu-theme: mat.define-light-theme((
 */
 
 // Bootstrap imports
-// @import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/functions';
 // @import '../node_modules/bootstrap/scss/variables';
 // @import '../node_modules/bootstrap/scss/maps';
-// @import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/mixins';
 // @import '../node_modules/bootstrap/scss/root';
 // @import '../node_modules/bootstrap/scss/reboot';
 // @import '../node_modules/bootstrap/scss/containers';
@@ -61,10 +61,37 @@ $lantu-theme: mat.define-light-theme((
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.mat-tab-header {
-  background: $color-tertiary;
+.products {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-.mat-tab-label-content {
-  color: white;
+.benefits {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  background: $color-primary;
+  &__icon-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $color-tertiary;
+    .mat-icon {
+      font-size: 52px;
+      height: fit-content;
+      width: auto;
+      margin-bottom: 5px;
+    }
+    &__label {
+      font-size: 21px;
+    }
+  }
 }
