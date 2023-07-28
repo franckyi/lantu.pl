@@ -61,14 +61,23 @@ $lantu-theme: mat.define-light-theme((
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+h2 {
+	max-width: 1000px;
+	margin: 4rem auto 2rem auto;
+}
+
 .products {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto 4rem auto;
+}
+
+.slider {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
 }
 
 .benefits {

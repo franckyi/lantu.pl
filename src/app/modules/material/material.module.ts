@@ -5,6 +5,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatGridListModule} from '@angular/material/grid-list'; 
 // import {MatDividerModule} from '@angular/material/divider';
 // import {MatFormFieldModule} from '@angular/material/form-field';
 // import {MatSelectModule} from '@angular/material/select';
@@ -21,7 +22,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatButtonModule,
     MatTabsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatGridListModule
     // MatDividerModule,
     // MatFormFieldModule,
     // MatSelectModule,

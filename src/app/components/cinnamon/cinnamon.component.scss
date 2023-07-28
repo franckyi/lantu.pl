@@ -1,0 +1,12 @@
+mat-grid-tile {
+    background: #ffe7dd;
+    p {
+        position: absolute;
+        margin: 4rem;
+        z-index: 1;
+    }
+    img {
+        width: 100%;
+        opacity: .2;
+    }
+}

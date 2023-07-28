@@ -1,1 +1,66 @@
-<p>cinnamon works!</p>
+<img class="slider" src="../../../assets/img/products/cinnamon/cinnamon-slider.png" alt="cinnamon">
+
+<h2>Our selection</h2>
+
+<!-- product cards -->
+<section class="products">
+    <app-product [product]="product" *ngFor="let product of products"></app-product>
+</section>
+
+<!-- benefits -->
+<article class="benefits">
+    <div class="benefits__icon-wrap">
+        <mat-icon class="benefits__icon">verified</mat-icon>
+        <span class="benefits__label">Handmade products</span>
+    </div>
+    <div class="benefits__icon-wrap">
+        <mat-icon class="benefits__icon">speed</mat-icon>
+        <span class="benefits__label">Fast delivery</span>
+    </div>
+    <div class="benefits__icon-wrap">
+        <mat-icon class="benefits__icon">archive</mat-icon>
+        <span class="benefits__label">Madagascar to Europe</span>
+    </div>
+    <div class="benefits__icon-wrap">
+        <mat-icon class="benefits__icon">credit_card</mat-icon>
+        <span class="benefits__label">Secure payments</span>
+    </div>
+</article>
+
+<h2>Advantages and details of vanilla</h2>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+        <p>
+            Cinnamon is made by cutting the stems of cinnamon trees. The inner bark is then extracted and the woody parts removed.
+            When it dries, it forms strips that curl into rolls, called cinnamon sticks. These sticks can be ground to form cinnamon powder.
+            The distinct smell and flavor of cinnamon are due to the oily part, which is very high in the compound cinnamaldehyde.
+        </p>
+        <img src="../../../assets/img/products/cinnamon/cinnamon-1.png" alt="">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <p>
+            Antioxidants protect your body from oxidative damage caused by free radicals.
+            Cinnamon is loaded with powerful antioxidants, including polyphenols.
+            One study found that cinnamon supplementation could significantly increase antioxidant levels in the blood while reducing levels of markers used to measure inflammation, such as C-reactive protein.
+        </p>
+        <img src="../../../assets/img/products/cinnamon/cinnamon-3.png" alt="">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <p>
+            Cinnamon may improve some key risk factors for heart disease, including cholesterol, triglycerides, and blood pressure.
+            Cinnamon has been shown to significantly increase sensitivity to the hormone insulin, which may improve blood sugar control.
+            By increasing insulin sensitivity, cinnamon can lower blood sugar levels and support better blood sugar control.
+        </p>
+        <img src="../../../assets/img/products/cinnamon/cinnamon-2.png" alt="">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <p>
+            Apart from the beneficial effects on insulin resistance, cinnamon can lower blood sugar through several other mechanisms.
+            First, cinnamon has been shown to decrease the amount of sugar that enters your bloodstream after a meal.
+            It does this by interfering with numerous digestive enzymes, which slows the breakdown of carbohydrates in your digestive tract.
+        </p>
+        <img src="../../../assets/img/products/cinnamon/cinnamon-4.png" alt="">
+    </mat-grid-tile>
+</mat-grid-list>
+  

@@ -16,14 +16,6 @@ export class VanillaComponent implements OnInit {
       cat: "vanille",
     },
     {
-      name: "12 x Bourbon Vanille pods 15-20 cm",
-      desc: "12 High Quality Madagascar bourbon vanilla pods vacuum packed 15-20 cm.",
-      src: "assets/img/products/vanilla/bourbon-pods.webp",
-      price: 120,
-      weight: 58,
-      cat: "vanille",
-    },
-    {
       name: "20 x Bourbon Vanille pods 14-16 cm",
       desc: "12 High Quality Madagascar bourbon vanilla pods vacuum packed 15-20 cm.",
       src: "assets/img/products/vanilla/bourbon-pods.webp",
