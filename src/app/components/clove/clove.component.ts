@@ -11,7 +11,7 @@ export class CloveComponent implements OnInit {
     {
       name: "Clove Lorem ipsum 200g",
       desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics.",
-      src: "assets/img/products/clove/clove-prod.png",
+      src: "./assets/img/products/clove/clove-prod.png",
       price: 95,
       weight: 55,
       cat: "clove",
@@ -19,7 +19,7 @@ export class CloveComponent implements OnInit {
     {
       name: "Clove Lorem ipsum 400g",
       desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics.",
-      src: "assets/img/products/clove/clove-prod.png",
+      src: "./assets/img/products/clove/clove-prod.png",
       price: 157,
       weight: 70,
       cat: "clove",
@@ -27,7 +27,7 @@ export class CloveComponent implements OnInit {
     {
       name: "Clove Lorem ipsum 800g",
       desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics.",
-      src: "assets/img/products/clove/clove-prod.png",
+      src: "./assets/img/products/clove/clove-prod.png",
       price: 1135,
       weight: 2113,
       cat: "clove",
