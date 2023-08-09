@@ -12,6 +12,7 @@ import { CloveComponent } from './components/clove/clove.component';
 import { ProductComponent } from './components/shared/product/product.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { BenefitsComponent } from './components/shared/benefits/benefits.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     CloveComponent,
     ProductComponent,
     ToolbarComponent,
-    TabsComponent
+    TabsComponent,
+    BenefitsComponent
   ],
   imports: [
     BrowserModule,
