@@ -13,6 +13,7 @@ import { ProductComponent } from './components/shared/product/product.component'
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { BenefitsComponent } from './components/shared/benefits/benefits.component';
+import { ProductDetailsComponent } from './components/shared/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BenefitsComponent } from './components/shared/benefits/benefits.compone
     ProductComponent,
     ToolbarComponent,
     TabsComponent,
-    BenefitsComponent
+    BenefitsComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

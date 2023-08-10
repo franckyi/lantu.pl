@@ -4,5 +4,4 @@ export interface Product {
     src: string,
     price: number,
     weight: number,
-    cat: string,
 }

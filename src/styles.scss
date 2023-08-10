@@ -9,6 +9,25 @@
 // Be sure that you only ever include this mixin once!
 @include mat.core();
 
+$my-typography: mat.define-typography-config(
+  $font-family: 'Prata',
+  $display-4: mat.define-typography-level(112px, 112px, 400, $letter-spacing: -0.05em),
+  $display-3: mat.define-typography-level(56px, 56px, 400, $letter-spacing: -0.02em),
+  $display-2: mat.define-typography-level(45px, 48px, 400, $letter-spacing: -0.005em),
+  $display-1: mat.define-typography-level(34px, 40px, 400),
+  $headline: mat.define-typography-level(64px, 70px, 400),
+  $title: mat.define-typography-level(21px, 52px, 400),
+  $body-1: mat.define-typography-level(
+    $font-family: 'Prata',
+    $font-weight: 300,
+    $font-size: 18px,
+    $line-height: 1.5,
+    $letter-spacing: normal,
+  ),
+  $body-2: mat.define-typography-level(18px, 1.5, 400),
+  $button: mat.define-typography-level(18px, 21px, 400),
+);
+
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
@@ -25,7 +44,8 @@ $lantu-theme: mat.define-light-theme((
     primary: $primary,
     accent: $accent,
     warn: $warn,
-  )
+  ),
+  typography: $my-typography
 ));
 
 // Include theme styles for core and each component used in your app.
@@ -58,8 +78,7 @@ $lantu-theme: mat.define-light-theme((
 
 /*******************/
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; margin: 0; }
 
 h2 {
 	max-width: 1000px;
@@ -102,5 +121,18 @@ h2 {
     &__label {
       font-size: 21px;
     }
+  }
+}
+
+mat-grid-tile {
+  background: #fffbe4;
+  p {
+      position: absolute;
+      margin: 4rem;
+      z-index: 1;
+  }
+  img {
+      width: 100%;
+      opacity: .2;
   }
 }
