@@ -55,46 +55,36 @@ $lantu-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-/* 
-    Imports
-*/
-
-// Bootstrap imports
-@import '../node_modules/bootstrap/scss/functions';
-// @import '../node_modules/bootstrap/scss/variables';
-// @import '../node_modules/bootstrap/scss/maps';
-@import '../node_modules/bootstrap/scss/mixins';
-// @import '../node_modules/bootstrap/scss/root';
-// @import '../node_modules/bootstrap/scss/reboot';
-// @import '../node_modules/bootstrap/scss/containers';
-// @import '../node_modules/bootstrap/scss/grid';
-// @import '../node_modules/bootstrap/scss/helpers';
-// @import '../node_modules/bootstrap/scss/bootstrap';
-
-
-/*******************/
-
 @import 'sass/colors';
-
-/*******************/
 
 html, body { height: 100%; margin: 0; }
 
 h2 {
 	max-width: 1000px;
 	margin: 4rem auto 2rem auto;
+  @media screen and (max-width: 992px) {
+    text-align: center;
+  }
+}
+
+
+// Product page
+
+.mat-tab-body .mat-tab-body-content {
+  overflow: hidden;
 }
 
 .products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
   max-width: 1000px;
   margin: 0 auto 4rem auto;
 }
 
 .slider {
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -124,15 +114,55 @@ h2 {
   }
 }
 
-mat-grid-tile {
-  background: #fffbe4;
+.details {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.detail {
+  min-height: 280px;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    height: initial;
+  }
   p {
-      position: absolute;
-      margin: 4rem;
-      z-index: 1;
+    position: absolute;
+    margin: 2rem;
+    z-index: 1;
+    background: #ffde9f;
+    padding: 10px;
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    @media screen and (min-width: 768px) {
+      max-width: 30%;
+    }
   }
   img {
-      width: 100%;
-      opacity: .2;
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      max-height: 466px;
+      min-height: 100%;
+    }
   }
+}
+
+.tabs .mat-tab-group {
+  margin-bottom: 0 !important;
+}
+
+// Scrollbar
+html {
+  scrollbar-color: $color-primary rgba(0,0,0, 0.1);
+  scrollbar-width: 3rem;
+}
+
+// Footer
+.footer {
+  padding: 3rem;
+  background-color: $color-primary;
+  display: block;
+  text-align: center;
 }

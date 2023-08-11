@@ -2,14 +2,13 @@
 
 <h2>Our selection</h2>
 
-<!-- product cards -->
 <section class="products">
     <app-product [product]="product" *ngFor="let product of products"></app-product>
 </section>
 
 <app-benefits></app-benefits>
 
-<h2>Advantages and details of vanilla</h2>
+<h2>Benefits and details of {{category}}</h2>
 
-<app-product-details [details]="details"></app-product-details>
+<app-product-details class="details" [details]="details"></app-product-details>
   

@@ -14,6 +14,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { BenefitsComponent } from './components/shared/benefits/benefits.component';
 import { ProductDetailsComponent } from './components/shared/product-details/product-details.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProductDetailsComponent } from './components/shared/product-details/pro
     ToolbarComponent,
     TabsComponent,
     BenefitsComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
