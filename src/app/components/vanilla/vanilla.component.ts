@@ -13,21 +13,21 @@ export class VanillaComponent implements OnInit {
     {
       name: "3 x Gousses de Vanille Noire Gourmet 15-18 cm",
       desc: "3 High Quality Madagascar bourbon vanilla pods vacuum packed 15-18 cm.",
-      src: "/lantu/assets/img/products/vanilla/bourbon-pods.webp",
+      src: "/assets/img/products/vanilla/bourbon-pods.webp",
       price: 8,
       weight: 35,
     },
     {
       name: "6 x Gousses de Vanille Noire Gourmet 15-18 cm",
       desc: "6 High Quality Madagascar bourbon vanilla pods vacuum packed 15-18 cm.",
-      src: "/lantu/assets/img/products/vanilla/bourbon-pods.webp",
+      src: "/assets/img/products/vanilla/bourbon-pods.webp",
       price: 15,
       weight: 70,
     },
     {
       name: "9 x Gousses de Vanille Noire Gourmet 15-18 cm",
       desc: "9 High Quality Madagascar bourbon vanilla pods vacuum packed 15-18 cm.",
-      src: "/lantu/assets/img/products/vanilla/bourbon-pods.webp",
+      src: "/assets/img/products/vanilla/bourbon-pods.webp",
       price: 24.50,
       weight: 100,
     }

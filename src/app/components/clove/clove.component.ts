@@ -13,21 +13,21 @@ export class CloveComponent implements OnInit {
     {
       name: "Cloves from Madagascar",
       desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics.",
-      src: "/lantu/assets/img/products/clove/clove-prod.jpg",
+      src: "/assets/img/products/clove/clove-prod.jpg",
       price: 3.5,
       weight: 50
     },
     {
       name: "Cloves from Madagascar",
       desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics.",
-      src: "/lantu/assets/img/products/clove/clove-prod.jpg",
+      src: "/assets/img/products/clove/clove-prod.jpg",
       price: 6,
       weight: 100
     },
     {
       name: "Cloves from Madagascar",
       desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics.",
-      src: "/lantu/assets/img/products/clove/clove-prod.jpg",
+      src: "/assets/img/products/clove/clove-prod.jpg",
       price: 14,
       weight: 250
     }

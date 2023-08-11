@@ -13,21 +13,21 @@ export class PeppercornComponent implements OnInit {
     {
       name: "Pink Peppercorn",
       desc: "What we do know is that pink peppercorns contain antioxidants and antibacterial essential oils. There is also some evidence to suggest that pink pepper can lower blood sugar and the risk of developing cancers.",
-      src: "/lantu/assets/img/products/pink-peppercorn/pp-3.jpg",
+      src: "/assets/img/products/pink-peppercorn/pp-3.jpg",
       price: 7.50,
       weight: 80,
     },
     {
       name: "Pink Peppercorn",
       desc: "What we do know is that pink peppercorns contain antioxidants and antibacterial essential oils. There is also some evidence to suggest that pink pepper can lower blood sugar and the risk of developing cancers.",
-      src: "/lantu/assets/img/products/pink-peppercorn/pp-3.jpg",
+      src: "/assets/img/products/pink-peppercorn/pp-3.jpg",
       price: 13,
       weight: 160,
     },
     {
       name: "Pink Peppercorn",
       desc: "What we do know is that pink peppercorns contain antioxidants and antibacterial essential oils. There is also some evidence to suggest that pink pepper can lower blood sugar and the risk of developing cancers.",
-      src: "/lantu/assets/img/products/pink-peppercorn/pp-3.jpg",
+      src: "/assets/img/products/pink-peppercorn/pp-3.jpg",
       price: 18.50,
       weight: 240,
     }

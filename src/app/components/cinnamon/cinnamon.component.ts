@@ -13,21 +13,21 @@ export class CinnamonComponent implements OnInit {
     {
       name: "Original Cinnamon from Madagascar",
       desc: "Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, sweet and savoury dishes, breakfast cereals, snack foods, bagels, teas, hot chocolate and traditional foods.",
-      src: "/lantu/assets/img/products/cinnamon/cinnamon-prod.jpg",
+      src: "/assets/img/products/cinnamon/cinnamon-prod.jpg",
       price: 21,
       weight: 100,
     },
     {
       name: "Original Cinnamon from Madagascar",
       desc: "Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, sweet and savoury dishes, breakfast cereals, snack foods, bagels, teas, hot chocolate and traditional foods.",
-      src: "/lantu/assets/img/products/cinnamon/cinnamon-prod.jpg",
+      src: "/assets/img/products/cinnamon/cinnamon-prod.jpg",
       price: 35,
       weight: 200,
     },
     {
       name: "Original Cinnamon from Madagascar",
       desc: "Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, sweet and savoury dishes, breakfast cereals, snack foods, bagels, teas, hot chocolate and traditional foods.",
-      src: "/lantu/assets/img/products/cinnamon/cinnamon-prod.jpg",
+      src: "/assets/img/products/cinnamon/cinnamon-prod.jpg",
       price: 53,
       weight: 400,
     }
